@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Website Kalkulator Matematik</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="head2">Welcome to katik</h2>
+            <p class="description">Hai Sobat,Selamat datang di katik :D</p>
+
+            <p class="descriptionview">
+                Sebuah Web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+            </p>
+
+            <div class="fitur1">
+                <p>Segitiga</p>
+            </div>
+            <div class="fitur2">
+                <p>Jajar Genjang</p>
+            </div>
+            <!-- rumus pertama start -->
+            <div class="luas">
+
+                <div class="namefitur">
+                    <h2>Luas Segitiga</h2>
+                </div>
+                <div>
+                    <div class="gambarsegitiga">
+
+                        <img src="./img/fotosegitiga.png" alt="foto segitiga"/>
+                    </div>
+                    <div class="pengantar">
+                        <p>Rumus Luas Segitiga yaitu :</p>
+                    </div>
+                    <div class="rumus">
+                        <p>L = 1/2 x a x t</p>
+                    </div>
+                    <div class="diketahui">
+                        <p>Di mana :</p>
+                        <br/>
+                        <p>L = Luas</p>
+                        <br/>
+                        <p>a = Panjang Alas</p>
+                        <br/>
+                        <p>t = Tinggi</p>
+                        <br/>
+                    </div>
+                </div>
+                <div class="headinput">
+                    <h2>Hitung Luas Segitiga</h2>
+                </div>
+                <div class="inputnilai">
+                    <input type="number" class="a" id="a" placeholder="Nilai Alas" type="text">
+                    <input type="number" class="t" id="t" placeholder="Nilai Tinggi" type="text">
+                </div>
+                <div class="hasilview">
+                    <p class="rumuscontoh" id="rumus"></p>
+                    <p class="rumusvalue" id="rumusvalue"></p>
+                    <p class="hasil" id="hasil"></p>
+                    <button class="hitungluas" id="hitungluas" onclick="checkResult()">Hitung</button>
+                    <button class="reset" id="reset" onclick="resetResult()">Reset</button>
+                </div>
+            </div>
+            <!-- rumus pertama end -->
+        </body>
+    </body>
+</html>
+
+<!-- mohon maaf sebelumnya saya kehabisan waktu untuk mengerjakan nya -->
